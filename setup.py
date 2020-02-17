@@ -26,7 +26,7 @@ m['scripts'] = ['urlwatch']
 m['package_dir'] = {'': 'lib'}
 m['packages'] = ['urlwatch']
 m['python_requires'] = '>3.3.0'
-m['entry_points'] = {"console_scripts": ["urlwatch=urlwatch:main"]}
+m['entry_points'] = {"console_scripts": ["urlwatch=urlwatch.main:main"]}
 m['data_files'] = [
     ('share/man/man1', ['share/man/man1/urlwatch.1']),
     ('share/urlwatch/examples', [
